@@ -1,0 +1,314 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local BchHub = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Line = Instance.new("ImageLabel")
+local Name = Instance.new("TextLabel")
+local Version = Instance.new("TextLabel")
+local Discord = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local Main2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local RATAOKILLER = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local HOLDRAUTIONBYPASS = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local HITBOXX7 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local Title2 = Instance.new("TextLabel")
+
+--Properties:
+
+BchHub.Name = "BchHub"
+BchHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+BchHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = BchHub
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.Position = UDim2.new(0.386668146, 0, 0.262626261, 0)
+Main.Size = UDim2.new(0.317318261, 0, 0.474747539, 0)
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = Main
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(26, 26, 26))}
+UIGradient.Rotation = 90
+UIGradient.Parent = Main
+
+Line.Name = "Line"
+Line.Parent = Main
+Line.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+Line.BorderSizePixel = 0
+Line.Position = UDim2.new(0, 0, 0.188087061, 0)
+Line.Size = UDim2.new(1.00019979, 0, 0.0101106726, 0)
+
+Name.Name = "Name"
+Name.Parent = Main
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.Position = UDim2.new(0.0269536488, 0, -0.0147729088, 0)
+Name.Size = UDim2.new(0.487713009, 0, 0.20104748, 0)
+Name.Font = Enum.Font.GothamBlack
+Name.Text = "Brocha Hub"
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
+Version.Name = "Version"
+Version.Parent = Main
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 1.000
+Version.Position = UDim2.new(0.514607131, 0, 0.042553056, 0)
+Version.Size = UDim2.new(0.0793744922, 0, 0.126035184, 0)
+Version.Font = Enum.Font.Gotham
+Version.Text = "v0.1"
+Version.TextColor3 = Color3.fromRGB(255, 85, 0)
+Version.TextScaled = true
+Version.TextSize = 14.000
+Version.TextWrapped = true
+
+Discord.Name = "Discord"
+Discord.Parent = Main
+Discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Discord.BackgroundTransparency = 1.000
+Discord.Position = UDim2.new(0.790643036, 0, 0.960202754, 0)
+Discord.Size = UDim2.new(0.208766356, 0, 0.038172666, 0)
+Discord.Font = Enum.Font.GothamBold
+Discord.Text = ".gg/XG4XeDphuv"
+Discord.TextColor3 = Color3.fromRGB(255, 85, 0)
+Discord.TextScaled = true
+Discord.TextSize = 14.000
+Discord.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0.0257935151, 0, 0.960202754, 0)
+Credits.Size = UDim2.new(0.295027614, 0, 0.038172666, 0)
+Credits.Font = Enum.Font.GothamBold
+Credits.Text = "5uchi e HampaBR"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+Credits.TextXAlignment = Enum.TextXAlignment.Left
+
+Main2.Name = "Main2"
+Main2.Parent = Main
+Main2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main2.Position = UDim2.new(0.0230030809, 0, 0.238297835, 0)
+Main2.Size = UDim2.new(0.951748967, 0, 0.694344401, 0)
+
+UICorner_2.CornerRadius = UDim.new(0, 4)
+UICorner_2.Parent = Main2
+
+RATAOKILLER.Name = "RATAOKILLER"
+RATAOKILLER.Parent = Main2
+RATAOKILLER.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+RATAOKILLER.Position = UDim2.new(0.024190018, 0, 0.0725821108, 0)
+RATAOKILLER.Size = UDim2.new(0.570685327, 0, 0.246858045, 0)
+RATAOKILLER.Font = Enum.Font.GothamBold
+RATAOKILLER.Text = "KILL ALL (AK)"
+RATAOKILLER.TextColor3 = Color3.fromRGB(255, 255, 255)
+RATAOKILLER.TextSize = 14.000
+RATAOKILLER.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 2)
+UICorner_3.Parent = RATAOKILLER
+
+HOLDRAUTIONBYPASS.Name = "HOLDRAUTIONBYPASS"
+HOLDRAUTIONBYPASS.Parent = Main2
+HOLDRAUTIONBYPASS.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+HOLDRAUTIONBYPASS.Position = UDim2.new(0.024190018, 0, 0.377040237, 0)
+HOLDRAUTIONBYPASS.Size = UDim2.new(0.570685327, 0, 0.246858045, 0)
+HOLDRAUTIONBYPASS.Font = Enum.Font.GothamBold
+HOLDRAUTIONBYPASS.Text = "Zerar o tempo de todos os Proximity Prompts"
+HOLDRAUTIONBYPASS.TextColor3 = Color3.fromRGB(255, 255, 255)
+HOLDRAUTIONBYPASS.TextSize = 14.000
+HOLDRAUTIONBYPASS.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 2)
+UICorner_4.Parent = HOLDRAUTIONBYPASS
+
+HITBOXX7.Name = "HITBOXX7"
+HITBOXX7.Parent = Main2
+HITBOXX7.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+HITBOXX7.Position = UDim2.new(0.0292402618, 0, 0.700906694, 0)
+HITBOXX7.Size = UDim2.new(0.570685327, 0, 0.246858045, 0)
+HITBOXX7.Font = Enum.Font.GothamBold
+HITBOXX7.Text = "HBE"
+HITBOXX7.TextColor3 = Color3.fromRGB(255, 255, 255)
+HITBOXX7.TextSize = 14.000
+HITBOXX7.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 2)
+UICorner_5.Parent = HITBOXX7
+
+Title.Name = "Title"
+Title.Parent = Main2
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.0580364987, 0, -0.0367335007, 0)
+Title.Size = UDim2.new(0.487712979, 0, 0.0812264457, 0)
+Title.Font = Enum.Font.GothamBlack
+Title.Text = "Funções"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Title2.Name = "Title2"
+Title2.Parent = Main2
+Title2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title2.BackgroundTransparency = 1.000
+Title2.Position = UDim2.new(0.594754577, 0, -0.0306049585, 0)
+Title2.Size = UDim2.new(0.404167116, 0, 0.0812264457, 0)
+Title2.Font = Enum.Font.GothamBlack
+Title2.Text = "Em breve..."
+Title2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title2.TextScaled = true
+Title2.TextSize = 14.000
+Title2.TextWrapped = true
+
+-- Scripts:
+
+local function GMYIA_fake_script() -- RATAOKILLER.LocalScript 
+	local script = Instance.new('LocalScript', RATAOKILLER)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	        for i, v in next, game.Players:GetPlayers() do
+	            local A_1 = v.Character.Humanoid
+	            local A_2 = v.Character.Torso
+	            local A_3 = 100
+	            local A_4 = v.Character.Torso.Position
+	            local A_5 = 0
+	            local A_6 = 0
+	            local A_7 = false
+	            local Event = game.Players.LocalPlayer.Backpack["AK-47"]["GunScript_Server"].lnflictTarget
+	            Event:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+	    end
+	end)
+end
+coroutine.wrap(GMYIA_fake_script)()
+local function LZWGZCI_fake_script() -- HOLDRAUTIONBYPASS.LocalScript 
+	local script = Instance.new('LocalScript', HOLDRAUTIONBYPASS)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	    for i,v in next, workspace:GetDescendants() do
+	        if v:IsA('ProximityPrompt') and v.HoldDuration then
+	            v.HoldDuration = 0
+	        end
+	    end
+	end)
+	
+end
+coroutine.wrap(LZWGZCI_fake_script)()
+local function BGHZZ_fake_script() -- HITBOXX7.LocalScript 
+	local script = Instance.new('LocalScript', HITBOXX7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	    game:GetService("StarterGui"):SetCore("SendNotification", {Title = "yeet", Text = "t = Enabled : p = disabled."})
+	    local player = game.Players.LocalPlayer
+	    local mouse = player:GetMouse()
+	
+	    -- Settings
+	
+	    bind = "" 
+	    bind2 = "t"
+	    bind3 = "p"
+	
+	    -- Script
+	
+	    mouse.KeyDown:connect(function(key)
+	        if key == bind then
+	            player.Character.HumanoidRootPart.CFrame = CFrame.new(1254.09656, 137.906067, -172.128204)
+	        end
+	    end)
+	
+	    mouse.KeyDown:connect(function(key2)
+	        if key2 == bind2 then
+	            _G.HeadSize = 7
+	            _G.Disabled = true
+	
+	
+	            if _G.Disabled then
+	                for i,v in next, game:GetService('Players'):GetPlayers() do
+	                    if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+	                        pcall(function()
+	                            v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+	                            v.Character.HumanoidRootPart.Transparency = 0.7
+	                            v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really blue")
+	                            v.Character.HumanoidRootPart.Material = "Neon"
+	                            v.Character.HumanoidRootPart.CanCollide = false
+	                        end)
+	                    end
+	                end
+	            end
+	        end
+	    end)
+	
+	    mouse.KeyDown:connect(function(key3)
+	        if key3 == bind3 then
+	            _G.HeadSize = 7
+	            _G.Disabled = true
+	
+	
+	            for i,v in next, game:GetService('Players'):GetPlayers() do
+	                if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+	                    pcall(function()
+	                        v.Character.HumanoidRootPart.Size = Vector3.new(10, 10, 10)
+	                        v.Character.HumanoidRootPart.Transparency = 1
+	                        v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Medium stone grey")
+	                        v.Character.HumanoidRootPart.Material = "Plastic"
+	                        v.Character.HumanoidRootPart.CanCollide = true
+	                    end)
+	                end
+	            end
+	        end
+	    end)
+	end)
+	
+end
+coroutine.wrap(BGHZZ_fake_script)()
+local function JTME_fake_script() -- Main.Draggable 
+	local script = Instance.new('LocalScript', Main)
+
+	local UIS = game:GetService("UserInputService")
+	local Main = script.Parent
+	local Camera = workspace:WaitForChild('Camera')
+	local DragMousePosition
+	local FramePosition
+	local Draggable = false
+	
+	Main.InputBegan:Connect(function(input)
+	    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+	        Draggable = true
+	        DragMousePosition = Vector2.new(input.Position.X, input.Position.Y)
+	        FramePosition = Vector2.new(Main.Position.X.Scale, Main.Position.Y.Scale)
+	    end
+	end)
+	
+	Main.InputEnded:Connect(function(input)
+	    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+	        Draggable = false
+	        
+	    end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+	    if Draggable == true then
+	        local NewPosition = FramePosition + ((Vector2.new(input.Position.X, input.Position.Y) - DragMousePosition) / Camera.ViewportSize)
+	        Main.Position = UDim2.new(NewPosition.X,0,NewPosition.Y,0)
+	    end
+	end)
+end
+coroutine.wrap(JTME_fake_script)()
