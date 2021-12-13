@@ -1,4 +1,4 @@
-script.Parent.MouseButton1Click:Connect(function()
+
     game:GetService("StarterGui"):SetCore("SendNotification", {Title = "FUCK MYSTRICC", Text = "Aperte T para ativar : Aperta P para desativar"})
     local player = game.Players.LocalPlayer
     local mouse = player:GetMouse()
@@ -58,4 +58,3 @@ script.Parent.MouseButton1Click:Connect(function()
             end
         end
     end)
-end)
