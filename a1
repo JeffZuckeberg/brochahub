@@ -1,0 +1,13 @@
+script.Parent.MouseButton1Click:Connect(function()
+        for i, v in next, game.Players:GetPlayers() do
+            local A_1 = v.Character.Humanoid
+            local A_2 = v.Character.Torso
+            local A_3 = 100
+            local A_4 = v.Character.Torso.Position
+            local A_5 = 0
+            local A_6 = 0
+            local A_7 = false
+            local Event = game.Players.LocalPlayer.Backpack["AK-47"]["GunScript_Server"].lnflictTarget
+            Event:FireServer(A_1, A_2, A_3, A_4, A_5, A_6, A_7)
+    end
+end)
