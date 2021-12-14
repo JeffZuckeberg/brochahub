@@ -1,5 +1,0 @@
- for i,v in next, workspace:GetDescendants() do
-        if v:IsA('ProximityPrompt') and v.HoldDuration then
-            v.HoldDuration = 0
-        end
-    end
